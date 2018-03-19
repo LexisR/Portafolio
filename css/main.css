@@ -1,0 +1,116 @@
+body, .row {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-container {
+  height: 600px;
+}
+
+
+/* nav part*/
+
+.navPart {
+ background-color:  #E7C5B1;
+}
+
+.infoNav {
+  color: #8B4919;
+}
+
+/*First section */
+
+#photo1 {
+ /* background-size: cover;*/
+ height: 80vh;
+
+}
+
+#title{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  color: #8B4919;
+}
+
+/* secondPart */
+
+#secondPart {
+  background: linear-gradient(to right, #E7C5B1 , #8B4919);
+  height: 60vh;
+}
+
+#aboutMe{
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+#paragraAbout {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+/*Footer and Contact Part */
+
+.containerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  background-color: #191b2d;
+  text-align: center;
+  padding: 5em;
+  color: #FFF;
+}
+
+footer p {
+  font-weight: lighter;
+}
+
+footer h3 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  margin: 0.5em;
+  font-size: 2.2em;
+  line-height: 0.8em;
+  text-shadow: 2px 2px 5px black;
+}
+
+footer h4.direction {
+  font-size: 1.8em;
+  text-decoration: underline;
+  text-decoration-color: #FF5733;
+}
+
+.social {
+  overflow: hidden;
+  margin: 2em 0 5em; ;
+  padding: 0;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  margin-right:4px;
+}
+
+.social li a    {
+  list-style: none;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2em;
+  line-height: 2.75em;
+  border-radius: 50%;
+  border:2px solid #FFF;
+  color: #FFF;
+  transition: all ease .6s;
+}
+.social li a:hover{
+  color:#FF5733;
+  background: #FFF;
+}
+
+#contacMe {
+  color: #FF5733;
+}
