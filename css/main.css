@@ -35,21 +35,48 @@ body, .row {
 /* secondPart */
 
 #secondPart {
-  background: linear-gradient(to right, #E7C5B1 , #8B4919);
-  height: 60vh;
+  /*background: linear-gradient(to right, #E7C5B1 , #8B4919);*/
+  background-color: #E7C5B1;
+  height: 80vh;
 }
 
 #aboutMe{
-  font-family: 'Dosis', sans-serif;
-  color: white;
+  font-family:  'Tangerine', cursive;
+  color: black;
 }
 
 #paragraAbout {
-  font-family: 'Dosis', sans-serif;
-  color: white;
+  font-family: 'Text Me One', sans-serif;
+  color: black;
 }
 
-/*Footer and Contact Part */
+/*Part three projects */
+
+
+#photo2 {
+  /* background-size: cover;*/
+  height: 80vh;
+ 
+ }
+
+/* Skill Part*/
+
+#skillPart {
+  background: linear-gradient(to bottom right, #E7C5B1 , #8B4919);
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+}
+
+#iconPart {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#iconPart2 {
+  padding-bottom: 4em;
+}
+
+ /*Footer and Contact Part */
 
 .containerFlex {
   display: flex;
@@ -57,10 +84,10 @@ body, .row {
   justify-content: center;
 }
 footer{
-  background-color: #191b2d;
+  background-color: #E7C5B1;
   text-align: center;
   padding: 5em;
-  color: #FFF;
+  color: #8B4919;
 }
 
 footer p {
@@ -79,7 +106,7 @@ footer h3 {
 footer h4.direction {
   font-size: 1.8em;
   text-decoration: underline;
-  text-decoration-color: #FF5733;
+  text-decoration-color: #8B4919;
 }
 
 .social {
@@ -103,7 +130,7 @@ footer h4.direction {
   line-height: 2.75em;
   border-radius: 50%;
   border:2px solid #FFF;
-  color: #FFF;
+  color: #8B4919;
   transition: all ease .6s;
 }
 .social li a:hover{
@@ -112,5 +139,5 @@ footer h4.direction {
 }
 
 #contacMe {
-  color: #FF5733;
+  color: #8B4919;
 }
