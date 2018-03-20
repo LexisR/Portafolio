@@ -16,9 +16,17 @@ body, .row {
 
 .infoNav {
   color: #8B4919;
+  font-size: 15px;
+  padding-top: 1em;
 }
 
-/*First section */
+#logo {
+  color: #8B4919;
+  font-size: 4em;
+  font-family:  'Tangerine', cursive;
+}
+
+/*First section Introduccion*/
 
 #photo1 {
  /* background-size: cover;*/
@@ -27,12 +35,13 @@ body, .row {
 }
 
 #title{
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Text Me One', sans-serif;
   text-align: center;
   color: #8B4919;
+  font-size: 29px;
 }
 
-/* secondPart */
+/* secondPart About Me */
 
 #secondPart {
   /*background: linear-gradient(to right, #E7C5B1 , #8B4919);*/
@@ -41,30 +50,50 @@ body, .row {
 }
 
 #aboutMe{
-  font-family:  'Tangerine', cursive;
+  font-family:  'Text Me One', sans-serif;
   color: black;
+  font-size: 4em;
+  padding-bottom: 18px;
+  padding-top: 40px;
 }
 
 #paragraAbout {
   font-family: 'Text Me One', sans-serif;
   color: black;
+  font-size: 22px;
 }
 
 /*Part three projects */
 
+#projectsPart {
+  height: 87vh;
+}
 
-#photo2 {
-  /* background-size: cover;*/
-  height: 80vh;
- 
- }
+#introductionProjects {
+  padding-top: 3em;
+  font-family: 'Text Me One', sans-serif;
+}
 
 /* Skill Part*/
 
-#skillPart {
+#skillsPart {
   background: linear-gradient(to bottom right, #E7C5B1 , #8B4919);
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Text Me One', sans-serif;
   color: #FFF;
+
+}
+
+#skillsTitle {
+  font-family: 'Text Me One', sans-serif;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 52px;
+}
+
+#paragraTitlte {
+  font-family: 'Text Me One', sans-serif;
+  color: white;
 }
 
 #iconPart {
@@ -75,6 +104,22 @@ body, .row {
 #iconPart2 {
   padding-bottom: 4em;
 }
+
+/* Dowlound part*/
+
+#download {
+font-size: 79px;
+/* padding-right: 4em; */
+background-color: rgba(0,0,0,0.2);
+box-shadow: none;
+}
+
+.fa-download {
+  font-size: 5em;
+  padding-top: 29px;
+  color: black;
+}
+
 
  /*Footer and Contact Part */
 
@@ -95,12 +140,12 @@ footer p {
 }
 
 footer h3 {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Text Me One', sans-serif;
   font-weight: 800;
   margin: 0.5em;
   font-size: 2.2em;
   line-height: 0.8em;
-  text-shadow: 2px 2px 5px black;
+ 
 }
 
 footer h4.direction {

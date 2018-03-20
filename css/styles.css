@@ -85,7 +85,7 @@ Slider
 }
 .cd-slider > li:nth-of-type(4) {
   background-color: #ff625a;
-  background-image: url(../images/img-10.jpg);
+  background-image: url(../images/img-10.png);
 }
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4) {
   background-size: cover;
@@ -190,7 +190,7 @@ Slider navigation
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: rgb(170, 107, 61);
 }
 .no-touch .cd-slider-navigation a:hover em {
   opacity: 1;
