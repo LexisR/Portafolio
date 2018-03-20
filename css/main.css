@@ -1,0 +1,188 @@
+body, .row {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-container {
+  height: 600px;
+}
+
+
+/* nav part*/
+
+.navPart {
+ background-color:  #E7C5B1;
+}
+
+.infoNav {
+  color: #8B4919;
+  font-size: 15px;
+  padding-top: 1em;
+}
+
+#logo {
+  color: #8B4919;
+  font-size: 4em;
+  font-family:  'Tangerine', cursive;
+}
+
+/*First section Introduccion*/
+
+#photo1 {
+ /* background-size: cover;*/
+ height: 80vh;
+
+}
+
+#title{
+  font-family: 'Text Me One', sans-serif;
+  text-align: center;
+  color: #8B4919;
+  font-size: 29px;
+}
+
+/* secondPart About Me */
+
+#secondPart {
+  /*background: linear-gradient(to right, #E7C5B1 , #8B4919);*/
+  background-color: #E7C5B1;
+  height: 80vh;
+}
+
+#aboutMe{
+  font-family:  'Text Me One', sans-serif;
+  color: black;
+  font-size: 4em;
+  padding-bottom: 18px;
+  padding-top: 40px;
+}
+
+#paragraAbout {
+  font-family: 'Text Me One', sans-serif;
+  color: black;
+  font-size: 22px;
+}
+
+/*Part three projects */
+
+#projectsPart {
+  height: 87vh;
+}
+
+#introductionProjects {
+  padding-top: 3em;
+  font-family: 'Text Me One', sans-serif;
+}
+
+/* Skill Part*/
+
+#skillsPart {
+  background: linear-gradient(to bottom right, #E7C5B1 , #8B4919);
+  font-family:'Text Me One', sans-serif;
+  color: #FFF;
+
+}
+
+#skillsTitle {
+  font-family: 'Text Me One', sans-serif;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 52px;
+}
+
+#paragraTitlte {
+  font-family: 'Text Me One', sans-serif;
+  color: white;
+}
+
+#iconPart {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#iconPart2 {
+  padding-bottom: 4em;
+}
+
+/* Dowlound part*/
+
+#download {
+font-size: 79px;
+/* padding-right: 4em; */
+background-color: rgba(0,0,0,0.2);
+box-shadow: none;
+}
+
+.fa-download {
+  font-size: 5em;
+  padding-top: 29px;
+  color: black;
+}
+
+
+ /*Footer and Contact Part */
+
+.containerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  background-color: #E7C5B1;
+  text-align: center;
+  padding: 5em;
+  color: #8B4919;
+}
+
+footer p {
+  font-weight: lighter;
+}
+
+footer h3 {
+  font-family: 'Text Me One', sans-serif;
+  font-weight: 800;
+  margin: 0.5em;
+  font-size: 2.2em;
+  line-height: 0.8em;
+ 
+}
+
+footer h4.direction {
+  font-size: 1.8em;
+  text-decoration: underline;
+  text-decoration-color: #8B4919;
+}
+
+.social {
+  overflow: hidden;
+  margin: 2em 0 5em; ;
+  padding: 0;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  margin-right:4px;
+}
+
+.social li a    {
+  list-style: none;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2em;
+  line-height: 2.75em;
+  border-radius: 50%;
+  border:2px solid #FFF;
+  color: #8B4919;
+  transition: all ease .6s;
+}
+.social li a:hover{
+  color:#FF5733;
+  background: #FFF;
+}
+
+#contacMe {
+  color: #8B4919;
+}

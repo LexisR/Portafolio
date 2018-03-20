@@ -1,19 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Kalam:700" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/main.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script|Text+Me+One|Tangerine" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-  
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+<body>
+  <nav class="navPart">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo" id="logo">LR</a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#" id="about" class="infoNav">About me</a>
+        </li>
+        <li>
+          <a href="#" id="projects" class="infoNav">Projects</a>
+        </li>
+        <li>
+          <a href="#" id="Skills" class="infoNav">Skills</a>
+        </li>
+        <li>
+          <a href="#" id="Contact" class="infoNav">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="parallax-container center valign-wrapper">
+    <div class="container" id="firstPart">
+      <div class="row">
+        <div class="col s12 white-text">
+          <h2 id="title"> Hi, I'm Lexis Rodriguez </h2>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="images/principal.jpg" id="photo1">
+    </div>
+  </div>
+  <!--About me -->
+  <section>
+    <div id="secondPart">
+      <div class="row">
+        <div class="col s12 l12">
+          <h2 class="center" id="aboutMe"> ABOUT ME</h2>
+        </div>
+        <div class="col l6 m6 s12">
+          <h2 class="center">
+            ACA VA MI FOTO
+          </h2>
+        </div>
+        <div class="col l6 m6 s12">
+          <h5 id="paragraAbout">
+            I'm obsessed with doing things and even more obsessed with making things better. I have been in the business of project management
+            since my beginning of my professional career. After graduating from Simon Rodriguez University, I have been actively
+            involved in the agile community leading web projects for the past 5 years. When I'm not developing websites or
+            leading a project, I'm probably running or gymnasium playing with my volleyball team. I love to travel, to live
+            the cultures of each country, its people, its gastronomy and its nature.
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projectsPart">
+    <div class="parallax-container center valign-wrapper">
+      <div class="parallax">
+        <img src="images/libretas.jpg" id="photo2">
+      </div>
+
+      <div class="cd-slider-wrapper">
+        <ul class="cd-slider">
+          <li class="visible">
+            <div id="firstPartProjects">
+              <h2 id="introductionProjects">MY PROJECTS</h2>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h2></h2>
+              <a href="https://github.com/LexisR/HeyQueVemos.git" target="_blank" class="cd-btn">View github</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h2></h2>
+              <a href="https://github.com/LexisR/bitlab.git" target="_blank" class="cd-btn">View github</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h2></h2>
+              <a href="https://github.com/LexisR/appLyft.git" target="_blank" class="cd-btn">View github</a>
+            </div>
+          </li>
+        </ul>
+        <!-- .cd-slider -->
+        <ol class="cd-slider-navigation">
+          <li class="selected">
+            <a href="#0">
+              <em>Item 1</em>
+            </a>
+          </li>
+          <li>
+            <a href="#0">
+              <em>Item 2</em>
+            </a>
+          </li>
+          <li>
+            <a href="#0">
+              <em>Item 3</em>
+            </a>
+          </li>
+          <li>
+            <a href="#0">
+              <em>Item 4</em>
+            </a>
+          </li>
+        </ol>
+        <!-- .cd-slider-navigation -->
+
+        <div class="cd-svg-cover" data-step1="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z" data-step2="M1400,800H383L770.7,0.6c0.2-0.3,0.5-0.6,0.9-0.6H1400v294V800z"
+          data-step3="M1400,800H0V0.6C0,0.4,0,0.3,0,0h1400v294V800z" data-step4="M615,800H0V0.6C0,0.4,0,0.3,0,0h615L393,312L615,800z"
+          data-step5="M0,800h-2V0.6C-2,0.4-2,0.3-2,0h2v312V800z" data-step6="M-2,800h2L0,0.6C0,0.3,0,0.3,0,0l-2,0v294V800z"
+          data-step7="M0,800h1017L629.3,0.6c-0.2-0.3-0.5-0.6-0.9-0.6L0,0l0,294L0,800z" data-step8="M0,800h1400V0.6c0-0.2,0-0.3,0-0.6L0,0l0,294L0,800z"
+          data-step9="M785,800h615V0.6c0-0.2,0-0.3,0-0.6L785,0l222,312L785,800z" data-step10="M1400,800h2V0.6c0-0.2,0-0.3,0-0.6l-2,0v312V800z">
+          <svg height='100%' width="100%" preserveAspectRatio="none" viewBox="0 0 1400 800">
+            <title>SVG cover layer</title>
+            <desc>an animated layer to switch from one slide to the next one</desc>
+            <path id="cd-changing-path" d="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z" />
+          </svg>
+        </div>
+        <!-- .cd-svg-cover -->
+      </div>
+      <!-- .cd-slider-wrapper -->
+    </div>
+  </section>
+
+  <div class="center-align">
+    <section id="skillsPart">
+      <div class="row">
+        <h4 id="skillsTitle"> MY SKILLS</h4>
+        <div class="col s12 l6">
+         <p class="light left-align" id="paragraTitlte">
+            I'm a FronteEnd Developer/Product Owner/Account Manager. I have skills to lead teams and project planning,also, I am able
+            to develop a website and collaborate on projects. If you have a project or creative need with which you can help.
+          </p>
+        </div>
+        <div class="col s12 l6">
+          <div class="row" id="iconPart">
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/sass-original.svg?size=50" alt="">
+            </div>
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/nodejs-plain.svg?size=50" alt="">
+            </div>
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/html5-plain.svg?size=50" alt="">
+            </div>
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/javascript-original.svg?size=50" alt="">
+            </div>
+          </div>
+          <div class="row" id="iconPart2">
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/jquery-original.svg?size=50" alt="">
+            </div>
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/react-original.svg?size=50" alt="">
+            </div>
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/wordpress-plain.svg?size=50" alt="">
+            </div>
+            <div class="col s3 l3">
+              <img src="https://icongr.am/devicon/css3-original.svg?size=50" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+    </div>
+
+
+    <div class="parallax-container center valign-wrapper">
+      <div class="parallax">
+        <img src=" images/teclado.jpg">
+      </div>
+
+      <div class="container black-text">
+        <div class="row">
+          <div class="col s12">
+           <h5 id="download">Download CV</h5>
+               <a href="docs/CV-Lexis.pdf" target="_blank"><div><i class="fa fa-download"></i></div></a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="containerFlex">
+      <div class="row clearMargin">
+        <div class="col s12 l12">
+          <div>
+            <h3>Lexis Rodriguez</h3>
+            <h5 class="profession">FronteEnd Developer/Product Owner/Account Manager</h5>
+            <h6 class="hide-on-small-only" id="contacMe">
+              I'm currently available for freelance projects or full-time work. If you're interested in working with me, please get in
+              touch with me
+            </h6>
+            <ul class="social">
+              <li>
+                <a href="https://github.com/LexisR" target="_blank">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/lexis-rodriguez-37294990/" target="_blank">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+         
+          <div class="col s12 l12">
+              <p>© 2018 All rights reserved by Lexis. Terms Privacy</p>
+          </div>
+         
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.shuffleLetters.js"></script>
+    <script type="text/javascript" src="js/snap.svg-min.js"> </script>
+    <script type="text/javascript" src="js/app.js"> </script>
 </body>
+
 </html>
