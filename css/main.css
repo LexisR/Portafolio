@@ -4,17 +4,17 @@ body, .row {
 }
 
 .parallax-container {
-  height: 600px;
+  height: 417px;
 }
 
 
 /* nav part*/
 
-.navPart {
+nav {
  background-color:  #E7C5B1;
 }
 
-.infoNav {
+.navInfo{
   color: #8B4919;
   font-size: 15px;
   padding-top: 1em;
@@ -46,7 +46,7 @@ body, .row {
 #secondPart {
   /*background: linear-gradient(to right, #E7C5B1 , #8B4919);*/
   background-color: #E7C5B1;
-  height: 80vh;
+  
 }
 
 #aboutMe{
@@ -61,12 +61,13 @@ body, .row {
   font-family: 'Text Me One', sans-serif;
   color: black;
   font-size: 22px;
+  padding-bottom: 2em;
 }
 
 /*Part three projects */
 
 #projectsPart {
-  height: 87vh;
+  /*height: 87vh;*/
 }
 
 #introductionProjects {
@@ -86,7 +87,7 @@ body, .row {
 #skillsTitle {
   font-family: 'Text Me One', sans-serif;
   color: white;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 1em;
   font-size: 52px;
 }

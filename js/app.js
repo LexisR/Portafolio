@@ -1,6 +1,28 @@
 $(document).ready(function(){
   $('.parallax').parallax();
 	$(".button-collapse").sideNav();
+//inicializando el menu
+	$(".aboutMeNav").click(function(){
+		$('html, body').animate({
+			scrollTop: ($('#secondPart').offset().top)
+		},1000);
+	});
+	$(".projectsNav").click(function(){
+		$('html, body').animate({
+			scrollTop: ($('#projectsPart').offset().top)
+		},1000);
+	});
+	$(".skillsNav").click(function(){
+		$('html, body').animate({
+			scrollTop: ($('#skillsPart').offset().top)
+		},2000);
+	});
+	$(".contactNav").click(function(){
+		$('html, body').animate({
+			scrollTop: ($('#footerPart').offset().top)
+		},2000);
+	});
+
 	/*
 		convert a cubic bezier value to a custom mina easing
 		http://stackoverflow.com/questions/25265197/how-to-convert-a-cubic-bezier-value-to-a-custom-mina-easing-snap-svg
