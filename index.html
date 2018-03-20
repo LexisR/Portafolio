@@ -16,26 +16,26 @@
 </head>
 
 <body>
-  <nav class="navPart">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo" id="logo">LR</a>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo" id="logo">LR</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li>
-          <a href="#" id="about" class="infoNav">About me</a>
-        </li>
-        <li>
-          <a href="#" id="projects" class="infoNav">Projects</a>
-        </li>
-        <li>
-          <a href="#" id="Skills" class="infoNav">Skills</a>
-        </li>
-        <li>
-          <a href="#" id="Contact" class="infoNav">Contact</a>
-        </li>
+        <li><a href="#" class="navInfo aboutMeNav"  >About Me</a></li>
+        <li><a href="#" class="navInfo projectsNav" >Projects</a></li>
+        <li><a href="#" class="navInfo skillsNav">Skills</a></li>
+        <li><a href="#" class="navInfo contactNav" >Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#" class="navInfo aboutMeNav" >About Me</a></li>
+        <li><a href="#" class="navInfo projectsNav" >Components</a></li>
+        <li><a  href="#" class="navInfo skillsNav">Skills</a></li>
+        <li><a href="#" class="navInfo contactNav">Contact</a></li>
       </ul>
     </div>
   </nav>
-
+      
   <!-- Content -->
   <div class="parallax-container center valign-wrapper">
     <div class="container" id="firstPart">
@@ -209,7 +209,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="containerFlex">
+    <footer class="containerFlex" id="footerPart">
       <div class="row clearMargin">
         <div class="col s12 l12">
           <div>
