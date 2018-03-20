@@ -20,22 +20,40 @@
   <nav>
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo" id="logo">LR</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="navInfo aboutMeNav"  >About Me</a></li>
-        <li><a href="#" class="navInfo projectsNav" >Projects</a></li>
-        <li><a href="#" class="navInfo skillsNav">Skills</a></li>
-        <li><a href="#" class="navInfo contactNav" >Contact</a></li>
+        <li>
+          <a href="#" class="navInfo aboutMeNav">About Me</a>
+        </li>
+        <li>
+          <a href="#" class="navInfo projectsNav">Projects</a>
+        </li>
+        <li>
+          <a href="#" class="navInfo skillsNav">Skills</a>
+        </li>
+        <li>
+          <a href="#" class="navInfo contactNav">Contact</a>
+        </li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="#" class="navInfo aboutMeNav" >About Me</a></li>
-        <li><a href="#" class="navInfo projectsNav" >Components</a></li>
-        <li><a  href="#" class="navInfo skillsNav">Skills</a></li>
-        <li><a href="#" class="navInfo contactNav">Contact</a></li>
+        <li>
+          <a href="#" class="navInfo aboutMeNav">About Me</a>
+        </li>
+        <li>
+          <a href="#" class="navInfo projectsNav">Components</a>
+        </li>
+        <li>
+          <a href="#" class="navInfo skillsNav">Skills</a>
+        </li>
+        <li>
+          <a href="#" class="navInfo contactNav">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
-      
+
   <!-- Content -->
   <div class="parallax-container center valign-wrapper">
     <div class="container" id="firstPart">
@@ -46,7 +64,7 @@
       </div>
     </div>
     <div class="parallax">
-      <img src="images/principal.jpg" id="photo1">
+      <img src="images/principal.jpg"  id="photo1">
     </div>
   </div>
   <!--About me -->
@@ -75,20 +93,16 @@
   </section>
 
   <section id="projectsPart">
-    <div class="parallax-container center valign-wrapper">
-      <div class="parallax">
-        <img src="images/libretas.jpg" id="photo2">
-      </div>
-
+    <div class="responsive-img">
       <div class="cd-slider-wrapper">
-        <ul class="cd-slider">
+        <ul class="cd-slider responsive-img">
           <li class="visible">
             <div id="firstPartProjects">
               <h2 id="introductionProjects">MY PROJECTS</h2>
             </div>
           </li>
           <li>
-            <div>
+            <div  >
               <h2></h2>
               <a href="https://github.com/LexisR/HeyQueVemos.git" target="_blank" class="cd-btn">View github</a>
             </div>
@@ -100,7 +114,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="responsive-img">
               <h2></h2>
               <a href="https://github.com/LexisR/appLyft.git" target="_blank" class="cd-btn">View github</a>
             </div>
@@ -153,7 +167,7 @@
       <div class="row">
         <h4 id="skillsTitle"> MY SKILLS</h4>
         <div class="col s12 l6">
-         <p class="light left-align" id="paragraTitlte">
+          <p class="light left-align" id="paragraTitlte">
             I'm a FronteEnd Developer/Product Owner/Account Manager. I have skills to lead teams and project planning,also, I am able
             to develop a website and collaborate on projects. If you have a project or creative need with which you can help.
           </p>
@@ -200,57 +214,61 @@
       <div class="container black-text">
         <div class="row">
           <div class="col s12">
-           <h5 id="download">Download CV</h5>
-               <a href="docs/CV-Lexis.pdf" target="_blank"><div><i class="fa fa-download"></i></div></a>
-                </div>
+            <h5 id="download">Download CV</h5>
+            <a href="docs/CV-Lexis.pdf" target="_blank">
+              <div>
+                <i class="fa fa-download"></i>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="containerFlex" id="footerPart">
-      <div class="row clearMargin">
-        <div class="col s12 l12">
-          <div>
-            <h3>Lexis Rodriguez</h3>
-            <h5 class="profession">FronteEnd Developer/Product Owner/Account Manager</h5>
-            <h6 class="hide-on-small-only" id="contacMe">
-              I'm currently available for freelance projects or full-time work. If you're interested in working with me, please get in
-              touch with me
-            </h6>
-            <ul class="social">
-              <li>
-                <a href="https://github.com/LexisR" target="_blank">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/lexis-rodriguez-37294990/" target="_blank">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-         
-          <div class="col s12 l12">
-              <p>© 2018 All rights reserved by Lexis. Terms Privacy</p>
-          </div>
-         
+  <!-- Footer -->
+  <footer class="containerFlex" id="footerPart">
+    <div class="row clearMargin">
+      <div class="col s12 l12">
+        <div>
+          <h3>Lexis Rodriguez</h3>
+          <h5 class="profession">FronteEnd Developer/Product Owner/Account Manager</h5>
+          <h6 class="hide-on-small-only" id="contacMe">
+            I'm currently available for freelance projects or full-time work. If you're interested in working with me, please get in
+            touch with me
+          </h6>
+          <ul class="social">
+            <li>
+              <a href="https://github.com/LexisR" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/lexis-rodriguez-37294990/" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </footer>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="js/snap.svg-min.js"> </script>
-    <script type="text/javascript" src="js/app.js"> </script>
+        <div class="col s12 l12">
+          <p>© 2018 All rights reserved by Lexis. Terms Privacy</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/jquery.shuffleLetters.js"></script>
+  <script type="text/javascript" src="js/snap.svg-min.js"> </script>
+  <script type="text/javascript" src="js/app.js"> </script>
 </body>
 
 </html>
