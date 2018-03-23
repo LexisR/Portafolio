@@ -115,12 +115,12 @@ Slider
   display: inline-block;
   padding: 1.2em 1.4em;
   margin-top: .8em;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #8B4919;
   border-radius: .25em;
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #070707;
   text-transform: uppercase;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
