@@ -46,7 +46,11 @@ nav {
 #secondPart {
   /*background: linear-gradient(to right, #E7C5B1 , #8B4919);*/
   background-color: #E7C5B1;
-  
+}
+
+#yo {
+  border-radius: 5em;
+  padding-bottom: 2em;
 }
 
 #aboutMe{
@@ -62,6 +66,7 @@ nav {
   color: black;
   font-size: 22px;
   padding-bottom: 2em;
+  padding-top: 1em;
 }
 
 /*Part three projects */
