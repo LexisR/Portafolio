@@ -71,29 +71,61 @@ nav {
 
 /*Part three projects */
 
-#projectsPart {
+#projectsInfo {
   /*height: 87vh;*/
+ background: linear-gradient(to top, #8B4919 , #E7C5B1);
 }
 
+#img-1 {
+  width: 20em;
+}
 
-
-#iconArrow {
-  font-size: 61px;
-  float: right;
+#projectPrincipalPart{
+  font-size: 47px;
+  /* padding-right: 4em; */
+  /* background-color: rgba(0,0,0,0.2); */
+  /* box-shadow: none; */
+  padding-bottom: -3em;
+  padding-bottom: 5em;
+  padding-left: 2em;
 }
 
 #introductionProjects {
-  padding-top: 3em;
   font-family: 'Text Me One', sans-serif;
+  padding-top: 3em;
+  font-size: 37px;
+  padding-left: 6em;
 }
 
+.btnLink {
+  background-color: yellow;
+  color: black;
+  box-shadow: #000000;
+}
+
+
+#img-7 {
+  height: 440px;
+}
+
+#img-8 {
+  height: 440px;
+}
+
+#img-9 {
+  height: 439px;
+}
+
+#img-10 {
+  height: 440px;
+}
 /* Skill Part*/
 
 #skillsPart {
   background-color: #E7C5B1;
   font-family:'Text Me One', sans-serif;
   color: #FFF;
-
+  font-family: 'Text Me One', sans-serif;
 }
 
 #skillsTitle {
@@ -128,6 +160,8 @@ font-size: 48px;
 background-color: rgba(0,0,0,0.2);
 box-shadow: none;
 }
+
+
 
 .fa-download {
   font-size: 5em;
