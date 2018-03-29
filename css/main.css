@@ -98,9 +98,8 @@ nav {
 }
 
 .btnLink {
-  background-color: yellow;
+  background:linear-gradient(to right, #E7C5B1 , rgb(245, 137, 59));
   color: black;
-  box-shadow: #000000;
 }
 
 
@@ -119,6 +118,22 @@ nav {
 #img-10 {
   height: 440px;
 }
+
+.visual {
+  height: 5em;
+  padding-top: 1em;
+}
+
+.firebase {
+  height: 5em;
+  padding-top: 1em;
+}
+
+#api {
+  height: 4em;
+  padding-bottom: 1em;
+}
+
 /* Skill Part*/
 
 #skillsPart {
@@ -143,7 +158,7 @@ nav {
   font-size: 25px;
 }
 
-#iconPart {
+.iconPart {
   padding-top: 4em;
   padding-bottom: 4em;
 }
