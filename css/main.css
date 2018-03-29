@@ -139,13 +139,13 @@ nav {
 #skillsPart {
   background-color: #E7C5B1;
   font-family:'Text Me One', sans-serif;
-  color: #FFF;
+  color: #000;
   font-family: 'Text Me One', sans-serif;
 }
 
 #skillsTitle {
   font-family: 'Text Me One', sans-serif;
-  color: white;
+  color: #000;
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 52px;
@@ -153,13 +153,18 @@ nav {
 
 #paragraTitlte {
   font-family: 'Text Me One', sans-serif;
-  color: white;
-  padding-top: 3em;
+  color: black;
+  padding-top: 1em; 
   font-size: 25px;
 }
 
 .iconPart {
   padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#iconPartSkill {
+  padding-top: 1em;
   padding-bottom: 4em;
 }
 
